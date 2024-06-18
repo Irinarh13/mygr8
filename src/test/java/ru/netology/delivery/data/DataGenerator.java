@@ -1,7 +1,7 @@
 package ru.netology.delivery.data;
 
 import com.github.javafaker.Faker;
-import io.qameta.allure.Step;
+import lombok.Data;
 import lombok.Value;
 import lombok.val;
 
@@ -68,4 +68,3 @@ public class DataGenerator {
         String phone;
     }
 }
-
